@@ -13,7 +13,7 @@
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     padding-top: 50px;
-    background-position: top left , bottom right;
+    background-position: 23px 38px , bottom right;
   }
   nav{
     width: 71%;
@@ -52,6 +52,9 @@ nav .menu a{
  font-weight: bold;
  color: white;
   cursor: pointer; 
+  text-align: center;
+  
+  
 }
  .section-heading{
 max-width: 827px;
@@ -143,7 +146,7 @@ justify-content: space-around;
 .skill-box .skill-card{
 padding: 30px;
 /* border:  1px solid red; */
-max-width: 267px;
+max-width:  267px;
  box-shadow: 0 6px 50px #00000029;
 }
 .skill-card img{
@@ -194,3 +197,45 @@ font-size: 16px;
 .resume-container hr{
     margin: 30px 0;
 }
+.text-center{
+    text-align: center;
+}
+footer{
+    margin-top: 130px;
+    background-color:#FFF8F3 ;
+    padding: 130px 0;
+    gap: 116px;
+}
+ footer .footer-cointainer{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+ }
+ .footer-cointainer .social{
+    max-width: 562px;
+ }
+.footer-cointainer h2{
+    color: #000000;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-cointainer .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-cointainer.icons a{
+    margin-right: 24px;
+}
+.footer-cointainer form input[type="text"] , .footer-cointainer form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
